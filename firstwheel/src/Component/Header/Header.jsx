@@ -4,7 +4,7 @@ import { Route, Routes, useNavigate } from "react-router-dom";
  const Header = () => {
   const navigate=useNavigate()
   return (
-    <div className="w-full h-[75px] bg-[#ffffff] fixed">
+    <div className="w-full h-[75px] bg-[#ffffff] fixed z-50">
       <div className="header w-full h-[65px] flex">
         <div className="cursor-pointer" onClick={()=>{navigate('/')}}>
           {" "}

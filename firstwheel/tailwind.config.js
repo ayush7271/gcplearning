@@ -62,7 +62,7 @@ module.exports = {
 			screens: {
 				sm: { max: '390px' },
 				md: { max: '480px' },
-				lg: { max: '1000' },
+				lg: { max: '1000px' },
 				po: { max: '480px' },
 				tab: { max: '767px' },
 			},
