@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from 'react-router-dom';
 import HomePageProvider from "./HomePage/HomePageProvider";
+import Footer from "../Component/Footer/Footer";
 
 const AppLayout = () => {
 
@@ -15,6 +16,7 @@ const AppLayout = () => {
                 </Route>
 
             </Routes>
+            <Footer/>
         </>
     )
 
